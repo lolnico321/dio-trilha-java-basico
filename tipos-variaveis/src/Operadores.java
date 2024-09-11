@@ -23,5 +23,9 @@ public class Operadores {
         numero = - numero;
 
         System.out.println( - numero);
+
+        numero = + numero;
+
+        System.out.println(numero);
     }
 }
