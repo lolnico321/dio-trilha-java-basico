@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #E2F3F2;
+}
+
+header {
+  background-color: #68C3A3;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #FFD6BA;
+}
+
+.section-div {
+  padding: 50px;
+  text-align: center;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #FFD6BA;
+}
+
+#home {
+  background-color: #68C3A3;
+}
+
+#sobre {
+  background-color: #E2F3F2;
+}
+
+#servicos {
+  background-color: #FFD6BA;
+}
+
+#contato {
+  background-color: #E2F3F2;
+}
+
+h1 {
+  color: #00796B;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #333;
+  font-size: 18px;
+}
+
